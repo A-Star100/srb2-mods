@@ -57,7 +57,7 @@ addHook("AbilitySpecial", function(player)
 	
 	
 	--First let's make sure we're using the right character skin.
-	if player.mo.skin != "sonic"
+	if player.mo.skin ~= "sonic"
 		--CONS_Printf(player,"Skin is not sonic; exiting")
 		return 
 	end
