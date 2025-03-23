@@ -25,6 +25,8 @@ addHook("AbilitySpecial", function(player)
     -- Play the thok sound effect
     S_StartSound(player.mo, sfx_thok)
 
+    player.pflags = $ & ~PF_NOJUMPDAMAGE  
+
      -- comment the line below to enable the multithok.
     player.pflags = $|PF_EXECUTED_SPECIAL --The | operator turns on the PF_EXECUTED_SPECIAL flag
     
@@ -32,25 +34,11 @@ addHook("AbilitySpecial", function(player)
     return true
 end)
 
-addHook("MobjCollide", function(player, enemy)
-    if player.player and (player.player.pflags & PF_EXECUTED_SPECIAL) then
-        if enemy.flags & MF_ENEMY then
-            
-            -- Deal damage and destroy the enemy
-            P_DamageMobj(enemy, player, player)
-            P_KillMobj(enemy, player, player)
-            
-            -- Add a slight upward bounce for consistency
-            P_SetObjectMomZ(player.mo, 5 * FRACUNIT)
-
-            return true  -- Prevent the player from taking damage
-        end
-    end
-end, MT_PLAYER)
 
 
 
 -- Reset the executed special flag when the player spawns
 addHook("PlayerSpawn", function(player)
     player.pflags = player.pflags & ~PF_EXECUTED_SPECIAL  -- Reset the executed special flag when the player spawns
+    player.pflags = $ & ~PF_NOJUMPDAMAGE
 end)
