@@ -7,7 +7,7 @@ addHook("AbilitySpecial", function(player)
         return true
     end
 
-    if player.mo.skin == "knuckles" and G_VersionMatches("2.1") then
+    if player.mo.skin == "knuckles" then
         player.pflags = $ & ~PF_GLIDING
     end
         
