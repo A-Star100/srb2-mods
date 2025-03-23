@@ -6,8 +6,8 @@ This Lua script is a modification of CobaltBW's Lua script tutorial for thokking
 | Tails          | ✅ Good        |
 | Knuckles   | ✅ Good   |
 | Metal Sonic | ✅ Good        | 
-| X Sonic | ❌ Nothing Works  | 
-| Modern Sonic | ❌ Nothing Works  |
+| X Sonic | ❌ Thok Fails  | 
+| Modern Sonic | ❌ Thok Fails  |
 
 This mod is compatible with most other mods that don't have advanced abilities that overwrite special ability changes. X Sonic and Modern Sonic have been tested and don't work, but 
 a wide range of other mods do.
