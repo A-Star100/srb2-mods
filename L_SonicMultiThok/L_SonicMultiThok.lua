@@ -105,8 +105,6 @@ addHook("AbilitySpecial", function(player)
 	
 	--Now we'll produce the sound effect at the player object's position.
 	S_StartSound(player.mo, sfx_thok)
-
-	player.pflags = $ & ~PF_NOJUMPDAMAGE  
 	
 	--We did it!
 	--CONS_Printf(player, "Thokked!")
@@ -131,4 +129,3 @@ end)
 	if you don't have a lot of scripting experience, so it's good to start
 	small on your projects. Best of luck, and have fun!
 ]]
-
