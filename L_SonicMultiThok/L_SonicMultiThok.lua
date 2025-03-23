@@ -129,3 +129,15 @@ end)
 	if you don't have a lot of scripting experience, so it's good to start
 	small on your projects. Best of luck, and have fun!
 ]]
+
+addHook("MobjCollide", function(player, enemy)
+    -- Ensure the player is in thok state and enemy is actually an enemy
+    if player.player and (player.player.pflags & PF_THOKKED) then
+        if enemy.flags & MF_ENEMY then
+            -- Damage the enemy instead of the player
+            P_DamageMobj(enemy, player, player) -- Inflict damage on the enemy
+            P_KillMobj(enemy, player, player)   -- Optionally destroy the enemy
+            return true  -- Prevent the enemy from damaging the player
+        end
+    end
+end, MT_PLAYER)  -- Hook for player objects only
