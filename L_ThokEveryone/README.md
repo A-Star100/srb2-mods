@@ -4,4 +4,5 @@ This Lua script is a modification of CobaltBW's Lua script tutorial for thokking
 You can find the original Lua [here](https://mb.srb2.org/threads/lua-thok-scripting-example.30555/).
 
 ## Bugs
-Characters other than Sonic get damaged if they thok into enemies. This is because no enemy handling has been added, so the default is used.
+Characters this custom thok is applied to lose rings instead of damaging enemies if they're hit in the middle of a thok.
+This is because no enemy handling has been added, so the default is used, which is to get damaged.
