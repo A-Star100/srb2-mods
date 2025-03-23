@@ -40,16 +40,21 @@ addHook("AbilitySpecial", function(player)
 end)
 
 addHook("MobjCollide", function(player, enemy)
-    -- Ensure the player is in thok state and enemy is actually an enemy
     if player.player and (player.player.pflags & PF_EXECUTED_SPECIAL) then
         if enemy.flags & MF_ENEMY then
-            -- Damage the enemy instead of the player
-            P_DamageMobj(enemy, player, player) -- Inflict damage on the enemy
-            P_KillMobj(enemy, player, player)   -- Optionally destroy the enemy
-            return true  -- Prevent the enemy from damaging the player
+            
+            -- Deal damage and destroy the enemy
+            P_DamageMobj(enemy, player, player)
+            P_KillMobj(enemy, player, player)
+            
+            -- Add a slight upward bounce for consistency
+            P_SetObjectMomZ(player.mo, 5 * FRACUNIT)
+
+            return true  -- Prevent the player from taking damage
         end
     end
-end, MT_PLAYER)  -- Hook for player objects only
+end, MT_PLAYER)
+
 
 
 
