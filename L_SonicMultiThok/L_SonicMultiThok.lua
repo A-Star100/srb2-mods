@@ -105,6 +105,8 @@ addHook("AbilitySpecial", function(player)
 	
 	--Now we'll produce the sound effect at the player object's position.
 	S_StartSound(player.mo, sfx_thok)
+
+	player.pflags = $ & ~PF_NOJUMPDAMAGE  
 	
 	--We did it!
 	--CONS_Printf(player, "Thokked!")
@@ -130,18 +132,3 @@ end)
 	small on your projects. Best of luck, and have fun!
 ]]
 
-addHook("MobjCollide", function(player, enemy)
-    if player.player and (player.player.pflags & PF_EXECUTED_SPECIAL) then
-        if enemy.flags & MF_ENEMY then
-            
-            -- Deal damage and destroy the enemy
-            P_DamageMobj(enemy, player, player)
-            P_KillMobj(enemy, player, player)
-            
-            -- Add a slight upward bounce for consistency
-            P_SetObjectMomZ(player.mo, 5 * FRACUNIT)
-
-            return true  -- Prevent the player from taking damage
-        end
-    end
-end, MT_PLAYER)
