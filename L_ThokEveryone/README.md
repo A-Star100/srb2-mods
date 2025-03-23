@@ -10,3 +10,6 @@ can now thok wherever they want to, and if applied, they can even multi-thok wit
 ## Bugs
 Characters this custom thok is applied to lose rings instead of damaging enemies if they're hit in the middle of a thok.
 This is because no enemy handling has been added, so the default is used, which is to get damaged.
+
+The ThokEveryone, MultiThokEveryone, and SonicMultiThok mods cannot be used in conjunction, only the first one applied will properly take effect.
+This means that you will need to restart the game to use another mod. Choose one wisely.
