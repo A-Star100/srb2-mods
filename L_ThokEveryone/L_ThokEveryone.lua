@@ -7,7 +7,7 @@ addHook("AbilitySpecial", function(player)
         return true
     end
 
-    if player.mo.skin = "sonic" then
+    if player.mo.skin == "sonic" then
         return 
     end
 
