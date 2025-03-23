@@ -87,7 +87,7 @@ addHook("AbilitySpecial", function(player)
     S_StartSound(player.mo, sfx_thok)
 
 	    -- If multithok is enabled, spawn additional thok projectiles
-		if enableMultithok then
+		if not enableMultithok then
 			-- You can customize this part based on the number of additional thoks
 			player.pflags = $|PF_THOKKED --The | operator turns on the PF_THOKKED flag
 		end
