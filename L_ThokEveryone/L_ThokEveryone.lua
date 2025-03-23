@@ -3,7 +3,7 @@ local PF_EXECUTED_SPECIAL = 0x10000  -- Arbitrary value that doesn't conflict wi
 
 addHook("AbilitySpecial", function(player)
     -- Check if the player is using a default character skin or specific character
-    if player.mo.skin ~= "sonic" and player.mo.skin ~= "tails" and player.mo.skin ~= "knuckles" and
+    if player.mo.skin ~= "tails" and player.mo.skin ~= "knuckles" and
        player.mo.skin ~= "amy" and player.mo.skin ~= "fang" and player.mo.skin ~= "metalsonic" and
        player.mo.skin ~= "sonic_tails" then
         -- If the player is not using one of the specified skins, skip the thok
