@@ -20,4 +20,4 @@ can now thok and multi-thok wherever they want to!
 
 And guess what! **This mod works in 2.1 as well as 2.2!***.
 
-**There are some bugs in 2.1 that don't occur in 2.2, but for the most part the mod still works in 2.1.*
+**There are some bugs in 2.1 that don't occur in 2.2, but for the most part the mod still works in both versions.*
