@@ -20,7 +20,7 @@ addHook("AbilitySpecial", function(player)
     end
 
     -- Set PF_NOJUMPDAMAGE before the Thok occurs for proper collision handling
-    player.pflags = $ & ~PF_NOJUMPDAMAGE  
+    --player.pflags = $ & ~PF_NOJUMPDAMAGE  
 
     -- Perform the Thok thrust action
     P_InstaThrust(player.mo, player.mo.angle, actionspd)
