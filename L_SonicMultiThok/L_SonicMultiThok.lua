@@ -1,103 +1,131 @@
--- Global variables for customization
-local thokSpeed = 60 * FRACUNIT  -- Default thok speed (can be adjusted)
-local enableMultithok = true    -- Default to enabling multithok
-local thokEnabled = true        -- Default to having thok enabled
+--[[
+Scripted by CobaltBW
 
--- Command to control thok speed
-addCommand("setthokspeed", function(player, speed)
-    if player ~= consoleplayer then
-        return
-    end
-    -- Check if speed is a valid number
-    local newSpeed = tonumber(speed)
-    if newSpeed then
-        thokSpeed = newSpeed * FRACUNIT  -- Convert speed to fracunits
-        CONS_Printf(player, "Thok speed set to %d\n", thokSpeed)
-    else
-        CONS_Printf(player, "Invalid speed. Please enter a number.\n")
-    end
-end)
+This is a recreation of Sonic's thok, made entirely through lua.
+The purpose of this script is to help teach newcomers the fundamentals of lua
+and ease the transition of learning its rules and syntax.
 
--- Command to enable or disable multithok
-addCommand("setmultithok", function(player, state)
-    if player ~= consoleplayer then
-        return
-    end
-    -- Enable or disable multithok based on the input state
-    if state == "on" then
-        enableMultithok = true
-        CONS_Printf(player, "Multithok enabled.\n")
-    elseif state == "off" then
-        enableMultithok = false
-        CONS_Printf(player, "Multithok disabled.\n")
-    else
-        CONS_Printf(player, "Invalid state. Use 'on' or 'off'.\n")
-    end
-end)
+Please make sure you are using an editor that can highlight code syntax, as this
+will make the tutorial (and code in general!) easier to read.
 
--- Command to disable thok entirely
-addCommand("disablethok", function(player, state)
-    if player ~= consoleplayer then
-        return
-    end
-    -- Enable or disable thok ability
-    if state == "off" then
-        thokEnabled = false
-        CONS_Printf(player, "Thok disabled.\n")
-    elseif state == "on" then
-        thokEnabled = true
-        CONS_Printf(player, "Thok enabled.\n")
-    else
-        CONS_Printf(player, "Invalid state. Use 'on' or 'off'.\n")
-    end
-end)
+--]]
 
---[[ AbilitySpecial hook to modify thok behavior ]]
+
+--[[
+	Let's begin by creating a hook.
+	
+	Think of hooks as "events". Some hooks, like MobjThinker, PlayerThink,
+	and ThinkFrame, run on every frame. Other hooks, like MobjSpawn, JumpSpecial,
+	and MobjDamage, will only run on special conditions, like when the object is
+	spawning, or when the player is trying to jump, or when an object is taking
+	damage.
+	
+	A hook generally takes the format of: addHook("hook name", function, object)
+	...where 'function' can refer to an existing function or can be created inline e.g.:
+			function(arg1, arg2)
+				<code block>
+			end
+		
+	
+	See this link for a list of hooks, the arguments they take, and information
+	on when they're executed.
+	https:--wiki.srb2.org/wiki/Lua/Hooks
+	
+	For this example, we need to modify the behavior of a player character that
+	is trying to perform their midair ability. The "AbilitySpecial" hook is best
+	equipped for this, since it takes place just before the ability is executed.
+	In this case, AbilitySpecial's arg 2 function takes one argument, which is
+	the player instance. It takes nothing for argument 3, so we won't include it.
+
+	In effect, it will look like this:
+			addHook("AbilitySpecial", function(player)
+				<code block>
+			end)
+			
+	Note: When calling function(), you can name these arguments anything you
+	want; the important thing is that you know what those arguments represent
+	when scripting the rest of your function. 
+]]
+
 addHook("AbilitySpecial", function(player)
-    -- Check if thok is enabled
-    if not thokEnabled then
-        return true  -- Exit the function without doing anything if thok is disabled
-    end
-    
-    -- Make sure the character is Sonic
-    if player.mo.skin ~= "sonic" then
-        return
-    end
-    
-    -- Check if Sonic has already thokked
-    if player.pflags & PF_THOKKED then
-        return true
-    end
-    
-    -- Execute the thok
-    -- Adjust the thok speed based on the thokSpeed variable
-    local actionspd = FixedMul(player.mo.scale, thokSpeed)
-    
-    if player.mo.eflags & MFE_UNDERWATER then
-        actionspd = actionspd / 2  -- Reduce speed underwater
-    end
-    
-    -- Perform the thok thrust
-    P_InstaThrust(player.mo, player.mo.angle, actionspd)
-
-
-	P_SpawnThokMobj(player)  -- Spawn a single thok mobj
-    
-    -- Play thok sound effect
-    S_StartSound(player.mo, sfx_thok)
-
-	    -- If multithok is enabled, spawn additional thok projectiles
-		if not enableMultithok then
-			-- You can customize this part based on the number of additional thoks
-			player.pflags = $|PF_THOKKED --The | operator turns on the PF_THOKKED flag
-		end
-    
-    return true  -- Prevent the original ability code from running
+	--The rest of this body will write out the contents of the function.
+	
+	--Let's make things easier for ourselves by printing a message to console,
+	--telling us that a certain line of code is being run. This is a good habit
+	--for when you need to troubleshoot why a certain piece of code doesn't work.
+	--CONS_Printf(player,"Trying lua thok event")
+	
+	
+	--First let's make sure we're using the right character skin.
+	if player.mo.skin != "sonic"
+		--CONS_Printf(player,"Skin is not sonic; exiting")
+		return 
+	end
+	
+	--[[	"return" exits the function. You can optionally return a value, such as a
+	boolean (true or false), an integer (1, 2, 3), or an object or player, etc.
+	
+	In the case of hooks, a boolean return value often determines whether
+	an event should continue its original code after the lua hook has ended, or
+	if the original code should be prevented from running. Here we return
+	nothing AKA "nil", and so the ability code continues as normal. In this
+	case, the ability code runs like normal if the player character is one other
+	than Sonic. ]]
+	
+	--Let's now check our player's flags to make sure we haven't thokked yet
+	if player.pflags&PF_THOKKED --This looks up player.pflags to see if the
+								--flag for PF_THOKKED is enabled.
+		--CONS_Printf(player,"Sonic has already thokked; exiting")
+		return true --Exit script. "True" in this case overrides the vanilla
+					--event handler for AbilitySpecial, i.e. Sonic will do nothing
+					--after this hook is run.
+	end
+	
+	--We've run all the checks we need, so let's execute the ability.
+	--CONS_Printf(player,"All checks passed, performing thok")
+	
+	--Now do InstaThrust, which resets the object's XY speed and thrusts it in
+	--a specified angle and a specified speed amount
+	local actionspd = FixedMul(player.mo.scale, player.actionspd)
+		-- We multiply player's actionspd by the player object's scale. This
+		-- means that if the player is shrunk or enlarged, their thok speed
+		-- will be accurate to the player object's new size.
+	if player.mo.eflags & MFE_UNDERWATER
+		actionspd = $/2 -- We cut actionspd in half if travelling underwater.
+	end
+	P_InstaThrust(player.mo, player.mo.angle, actionspd)
+	
+	--Note: player.actionspd is a copy of the skin's actionspd value, which is
+	--typically used for determining the speed of certain ability attributes.
+	--If we just wanted a fixed integer amount, we would write it out as
+	-- 60*FRACUNIT (i.e. 60 fracunits)
+	
+	--This simple function spawns whichever object is set to the skin's thokmobj.
+	P_SpawnThokMobj(player)
+	
+	--Now we'll produce the sound effect at the player object's position.
+	S_StartSound(player.mo, sfx_thok)
+	
+	--We did it!
+	--CONS_Printf(player, "Thokked!")
+	--Let's return true, which will close this hook and, in this case, prevent 
+	--the typical ability code from running after this hook.
+	return true
 end)
 
---[[ 
-    Now you can use the following commands in the game console to control the thok behavior:
-    - `setthokspeed <speed>`: Change the speed of the thok (e.g., `setthokspeed 100`).
-    - `setmultithok <on|off>`: Enable or disable multithok (e.g., `setmultithok on`).
-    - `disablethok <on|off>`: Enable or disable the thok ability entirely (e.g., `disablethok off`).
-]] 
+--[[
+	Hopefully this script makes the process of working with lua a little easier
+	to understand. The wiki should hopefully have all the info you need, but
+	I've compiled a small collection of links that should make navigating the
+	lua sections slightly less confusing.
+	
+	https:--wiki.srb2.org/wiki/User:CobaltBW/Sandbox
+	
+	The official SRB2 discord's #scripting channel is also a good place for help
+	if you need assistance troubleshooting a script, or if you just want to
+	show off something you made.
+	
+	Lua is a powerful tool when mastered but may take a while to get used to
+	if you don't have a lot of scripting experience, so it's good to start
+	small on your projects. Best of luck, and have fun!
+]]
