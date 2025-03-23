@@ -7,6 +7,11 @@ addHook("AbilitySpecial", function(player)
         return true
     end
 
+    if player.mo.skin == "knuckles" and G_VersionMatches("2.1") then
+        player.pflags = $ & ~PF_GLIDING
+    end
+        
+
     -- Force the player to perform a Thok special ability
     local actionspd = FixedMul(player.mo.scale, 60 * FRACUNIT)  -- Adjust for size
     
