@@ -3,7 +3,6 @@ local PF_EXECUTED_SPECIAL = 0x10000  -- Arbitrary value that doesn't conflict wi
 
 addHook("AbilitySpecial", function(player)
     -- Check if the player is using a default character skin or specific character
-    -- You can comment out the if condition below to allow characters added via mods to thok.
     if player.mo.skin ~= "sonic" and player.mo.skin ~= "tails" and player.mo.skin ~= "knuckles" and
        player.mo.skin ~= "amy" and player.mo.skin ~= "fang" and player.mo.skin ~= "metalsonic" and
        player.mo.skin ~= "sonic_tails" then
@@ -39,6 +38,19 @@ addHook("AbilitySpecial", function(player)
     -- Prevent the original ability code from running (no default special ability)
     return true
 end)
+
+addHook("MobjCollide", function(player, enemy)
+    -- Ensure the player is in thok state and enemy is actually an enemy
+    if player.player and (player.player.pflags & PF_EXECUTED_SPECIAL) then
+        if enemy.flags & MF_ENEMY then
+            -- Damage the enemy instead of the player
+            P_DamageMobj(enemy, player, player) -- Inflict damage on the enemy
+            P_KillMobj(enemy, player, player)   -- Optionally destroy the enemy
+            return true  -- Prevent the enemy from damaging the player
+        end
+    end
+end, MT_PLAYER)  -- Hook for player objects only
+
 
 
 -- Reset the executed special flag when the player spawns
