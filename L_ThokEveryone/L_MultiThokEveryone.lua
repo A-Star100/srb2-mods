@@ -23,8 +23,6 @@ addHook("AbilitySpecial", function(player)
     -- Set PF_NOJUMPDAMAGE before the Thok occurs for proper collision handling
     player.pflags = $ & ~PF_NOJUMPDAMAGE  
 
-    player.mo.state = S_PLAY_ROLL
-
     -- Perform the Thok thrust action
     P_InstaThrust(player.mo, player.mo.angle, actionspd)
     
@@ -50,10 +48,7 @@ end)
 addHook("ThinkFrame", function()
     for player in players.iterate()
         if player and player.mo and player.mo.valid then
-            -- Maintain the rolling animation if the character can't spindash
-            if not skins[player.mo.skin].abilities.spindash then
-                player.mo.state = S_PLAY_ROLL
-            end
+            player.pflags = $ & ~PF_NOJUMPDAMAGE  
         end
     end
 end)
