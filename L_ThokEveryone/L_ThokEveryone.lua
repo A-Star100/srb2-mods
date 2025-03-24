@@ -4,7 +4,6 @@
 addHook("AbilitySpecial", function(player)
     -- Ensure the player hasn't already executed a special ability
     if player.pflags & PF_THOKKED then
-        print("Already Thokked!") -- Debug
         return true
     end
 
@@ -42,7 +41,6 @@ addHook("AbilitySpecial", function(player)
 
     -- Comment the line below to enable the multithok
     player.pflags = $ | PF_THOKKED
-    print("Multithok Disabled!")  -- Debug
     
     -- Prevent the original ability code from running (no default special ability)
     return true
