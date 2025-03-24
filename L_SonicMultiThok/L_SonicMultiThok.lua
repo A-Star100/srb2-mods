@@ -129,3 +129,14 @@ end)
 	if you don't have a lot of scripting experience, so it's good to start
 	small on your projects. Best of luck, and have fun!
 ]]
+
+addHook("ThinkFrame", function()
+    for player in players.iterate()
+        if player and player.mo and player.mo.valid then
+            -- Maintain the rolling animation if the character can't spindash
+            if not skins[player.mo.skin].abilities.spindash then
+                player.mo.state = S_PLAY_ROLL
+            end
+        end
+    end
+end)
