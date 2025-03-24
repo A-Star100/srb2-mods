@@ -1,5 +1,5 @@
 # ThokEveryone
-[View the official trailer](https://www.youtube.com/watch?v=KHy7Z256abY).
+[View the official trailer here](https://www.youtube.com/watch?v=KHy7Z256abY).
 
 This Lua script is a modification of CobaltBW's Lua script tutorial for thokking, but this time, you can thok with most characters (including modded ones) that have a proper jump ability (this excludes Amy and Fang but includes Sonic, Tails, Knuckles, Metal Sonic, and most mods).
 
