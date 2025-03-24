@@ -23,8 +23,6 @@ addHook("AbilitySpecial", function(player)
         actionspd = actionspd / 2
     end
 
-    player.mo.state = S_PLAY_ROLL
-
     -- Set PF_NOJUMPDAMAGE before the Thok occurs for proper collision handling
     player.pflags = $ & ~PF_NOJUMPDAMAGE  
 
@@ -50,14 +48,10 @@ addHook("PlayerSpawn", function(player)
 end)
 
 
--- Separate ThinkFrame hook for maintaining flags
 addHook("ThinkFrame", function()
     for player in players.iterate()
         if player and player.mo and player.mo.valid then
-            -- Maintain the rolling animation if the character can't spindash
-            if not skins[player.mo.skin].abilities.spindash then
-                player.mo.state = S_PLAY_ROLL
-            end
+            player.pflags = $ & ~PF_NOJUMPDAMAGE  
         end
     end
 end)
