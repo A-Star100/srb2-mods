@@ -10,7 +10,11 @@ addHook("AbilitySpecial", function(player)
     if player.mo.skin == "knuckles" then
         player.pflags = $ & ~PF_GLIDING
     end
-        
+
+    -- Uncomment this line if in SRB2 2.1
+    -- if player.mo.skin == "knuckles" then
+        -- player.mo.state = S_PLAY_FALL
+    -- end  
 
     -- Force the player to perform a Thok special ability
     local actionspd = FixedMul(player.mo.scale, 60 * FRACUNIT)  -- Adjust for size
