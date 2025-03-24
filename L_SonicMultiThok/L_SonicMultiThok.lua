@@ -137,7 +137,7 @@ end)
 addHook("PlayerSpawn", function()
 	--First let's make sure we're using the right character skin.
 	if player.mo.skin ~= "sonic"
-		CONS.PrintF("Skin is not Sonic, exiting; Load the MultiThokEveryone mod to use multithok with other characters.")
+		--CONS.PrintF("Skin is not Sonic, exiting; Load the MultiThokEveryone mod to use multithok with other characters.")
 		return
 	end
 )
