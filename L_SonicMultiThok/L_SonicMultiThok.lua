@@ -58,7 +58,6 @@ addHook("AbilitySpecial", function(player)
 	
 	--First let's make sure we're using the right character skin.
 	if player.mo.skin ~= "sonic"
-		--CONS_Printf(player,"Skin is not sonic; exiting")
 		return 
 	end
 	
@@ -130,13 +129,18 @@ end)
 	small on your projects. Best of luck, and have fun!
 ]]
 
+addHook("PlayerSpawn", function()
+	--First let's make sure we're using the right character skin.
+	if player.mo.skin ~= "sonic"
+		CONS.PrintF("Skin is not Sonic, exiting; Load the MultiThokEveryone mod to use multithok with other characters.")
+		return
+	end
+)
+
 addHook("ThinkFrame", function()
     for player in players.iterate()
         if player and player.mo and player.mo.valid then
-            -- Maintain the rolling animation if the character can't spindash
-            if not skins[player.mo.skin].abilities.spindash then
-                player.mo.state = S_PLAY_ROLL
-            end
+            player.pflags = $ & ~PF_NOJUMPDAMAGE  
         end
     end
 end)
