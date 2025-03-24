@@ -24,6 +24,7 @@ addHook("AbilitySpecial", function(player)
     end
 
     -- Set PF_NOJUMPDAMAGE before the Thok occurs for proper collision handling
+    -- Comment the line below if you want the mod to work in 2.1
     player.pflags = $ & ~PF_NOJUMPDAMAGE  
 
     -- Perform the Thok thrust action
@@ -47,7 +48,7 @@ addHook("PlayerSpawn", function(player)
     player.pflags = player.pflags & ~PF_EXECUTED_SPECIAL  -- Reset executed flag
 end)
 
-
+-- Remove this ThinkFrame hook if you want the mod to work in 2.1
 addHook("ThinkFrame", function()
     for player in players.iterate()
         if player and player.mo and player.mo.valid then
