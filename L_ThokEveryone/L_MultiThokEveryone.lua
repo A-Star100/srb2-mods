@@ -1,11 +1,5 @@
 -- Define a custom flag for when a special ability has been executed
-local PF_EXECUTED_SPECIAL = 0x10000  -- Arbitrary value that doesn't conflict with existing flags
-
 addHook("AbilitySpecial", function(player)
-    -- Ensure the player hasn't already executed a special ability
-    if player.pflags & PF_EXECUTED_SPECIAL then
-        return true
-    end
 
     if player.mo.skin == "knuckles" then
         player.pflags = $ & ~PF_GLIDING
@@ -40,10 +34,7 @@ addHook("AbilitySpecial", function(player)
     return true
 end)
 
--- Reset the executed special flag when the player spawns
-addHook("PlayerSpawn", function(player)
-    player.pflags = player.pflags & ~PF_EXECUTED_SPECIAL  -- Reset executed flag
-end)
+
 
 -- Remove this ThinkFrame hook if you want the mod to work in 2.1
 addHook("ThinkFrame", function()
