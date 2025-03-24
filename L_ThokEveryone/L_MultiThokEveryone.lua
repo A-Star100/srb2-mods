@@ -10,6 +10,7 @@ addHook("AbilitySpecial", function(player)
     if player.mo.skin == "knuckles" then
         player.pflags = $ & ~PF_GLIDING
     end
+        
 
     -- Force the player to perform a Thok special ability
     local actionspd = FixedMul(player.mo.scale, 60 * FRACUNIT)  -- Adjust for size
@@ -48,7 +49,8 @@ end)
 addHook("ThinkFrame", function()
     for player in players.iterate()
         if player and player.mo and player.mo.valid then
-            player.pflags = $ & ~PF_NOJUMPDAMAGE  
+            -- Clear PF_EXECUTED_SPECIAL as well (fixes multi-thok)
+            player.pflags = $ & ~PF_NOJUMPDAMAGE
         end
     end
 end)
