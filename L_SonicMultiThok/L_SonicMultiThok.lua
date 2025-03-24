@@ -137,6 +137,7 @@ addHook("PlayerSpawn", function()
 	end
 )
 
+-- Remove this ThinkFrame hook if you want the mod to work in 2.1
 addHook("ThinkFrame", function()
     for player in players.iterate()
         if player and player.mo and player.mo.valid then
