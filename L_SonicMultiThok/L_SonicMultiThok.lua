@@ -92,6 +92,11 @@ addHook("AbilitySpecial", function(player)
 	if player.mo.eflags & MFE_UNDERWATER
 		actionspd = $/2 -- We cut actionspd in half if travelling underwater.
 	end
+
+	-- Set PF_NOJUMPDAMAGE before the Thok occurs for proper collision handling
+    -- Comment the line below if you want the mod to work in 2.1
+    player.pflags = $ & ~PF_NOJUMPDAMAGE  
+
 	P_InstaThrust(player.mo, player.mo.angle, actionspd)
 	
 	--Note: player.actionspd is a copy of the skin's actionspd value, which is
