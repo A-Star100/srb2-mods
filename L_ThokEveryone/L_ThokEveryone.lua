@@ -1,18 +1,22 @@
 -- Define a custom flag for when a special ability has been executed
-local PF_EXECUTED_SPECIAL = 0x10000  -- Arbitrary value that doesn't conflict with existing flags
+--local PF_EXECUTED_SPECIAL = 0x10000  -- Arbitrary value that doesn't conflict with existing flags
 
 addHook("AbilitySpecial", function(player)
     -- Ensure the player hasn't already executed a special ability
-    if player.pflags & PF_EXECUTED_SPECIAL then
+    if player.pflags & PF_THOKKED then
+        print("Already Thokked!") -- Debug
         return true
     end
-    
-    if player.mo.skin == "sonic" then
-        return 
-    end
+
 
     if player.mo.skin == "knuckles" then
         player.pflags = $ & ~PF_GLIDING
+    end
+        
+
+    
+    if player.mo.skin == "sonic" then
+        return 
     end
     
     -- Force the player to perform a Thok special ability
@@ -37,23 +41,13 @@ addHook("AbilitySpecial", function(player)
     S_StartSound(player.mo, sfx_thok)
 
     -- Comment the line below to enable the multithok
-    player.pflags = $ | PF_EXECUTED_SPECIAL
+    player.pflags = $ | PF_THOKKED
+    print("Multithok Disabled!")  -- Debug
     
     -- Prevent the original ability code from running (no default special ability)
     return true
 end)
 
--- Reset the executed special flag when the player spawns
-addHook("PlayerSpawn", function(player)
-    player.pflags = player.pflags & ~PF_EXECUTED_SPECIAL  -- Reset executed flag
-end)
-
--- Clear PF_EXECUTED_SPECIAL on landing
-addHook("PlayerThink", function(player)
-    if player.mo.eflags & MFE_TOUCHINGFLOOR then
-        player.pflags = $ & ~PF_EXECUTED_SPECIAL
-    end
-end)
 
 -- Remove this ThinkFrame hook if you want the mod to work in 2.1
 addHook("ThinkFrame", function()
