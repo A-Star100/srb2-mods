@@ -2,7 +2,7 @@
 You might be wondering, how the heck did I make this?
 
 Well I'll tell you. It's with [Slade](https://slade.mancubus.net/), a Doom mod editor that supports Sonic Robo Blast 2 along with Doom and more (it isn't good for map making, use [Ultimate Zone
-Builder](https://mb.srb2.org/addons/ultimate-zone-builder.6126/) for that instead).
+Builder](https://mb.srb2.org/addons/ultimate-zone-builder.6126/) (SRB2-only) for that instead).
 
 Slade may seem daunting at first, but here are a few core concepts you must get the gist of to get going:
 
