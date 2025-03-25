@@ -16,6 +16,6 @@ Slade may seem daunting at first, but here are a few core concepts you must get 
   
 - **Doom Graphics:** Doom graphics are also extremely crucial to your mod. Without them, your character will appear blank. For simplicity, I decided to stick with the default Sonic sprites the PK3 template I used had.
   
-- **PK3 and WAD archives:** Can't believe I didn't mention this first. These are the two most commonly used types of archives for SRB2 mods (and Doom mods in general). These archives are compressed versions of the contents of your mod (which at the end of the day is just a regular folder with mod details). [See the difference here](https://mb.srb2.org/threads/i-wonder-which-file-is-better-for-character-mods-wad-or-pk3.34096/)
+- **PK3 and WAD archives:** Can't believe I didn't mention this first. These are the two most commonly used types of archives for SRB2 mods (and Doom mods in general). These archives are compressed versions of the contents of your mod (which at the end of the day is just a regular folder with mod details). [See the difference here](https://mb.srb2.org/threads/i-wonder-which-file-is-better-for-character-mods-wad-or-pk3.34096/#post-558489).
 
 If you're still confused, take a look at the [SLADE Wiki](https://slade.mancubus.net/index.php?page=wiki) or the [SRB2 Wiki](https://wiki.srb2.org). 
