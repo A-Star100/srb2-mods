@@ -6,7 +6,7 @@ Builder](https://mb.srb2.org/addons/ultimate-zone-builder.6126/) for that instea
 
 Slade may seem daunting at first, but here are a few core concepts you must get the gist of to get going:
 
-- **Lumps:** These are, in fact, just regular files most of the time without a file extension. They are parts of the ZIP your mod is packaged in. PK3 archives are ZIP files at their core, so most unzipping software can unzip its contents (although you should use Slade to edit the mod).
+- **Lumps:** These are, in fact, just regular files most of the time without a file extension. They are parts of the ZIP your mod is packaged in. PK3 archives are ZIP files at their core, so most unzipping software can unzip its contents (although you should use an editor to edit the mod).
   
 - **Lua:** [Lua](https://www.lua.org/) is a programming language that is often used in video games and supported Sonic Robo Blast 2 for adding gameplay abilities to your character without needing to create a whole mod with a Doom mod editor. It's how I added the multithok ability to Speedy Sonic (the boost ability is built-in for SRB2, called DASHMODE).
   
