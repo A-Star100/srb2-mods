@@ -12,7 +12,7 @@ Slade may seem daunting at first, but here are a few core concepts you should kn
   
 - **[SOC](https://wiki.srb2.org/wiki/SOC):** Sonic Object Configuration is a type of config file for Sonic Robo Blast 2 that is used in mods to define how your character will appear both in-game and in the character select screen. Unlike Lua, it is not as capable in adding gameplay abilites, and mostly meant for styling and adding some objects.
   
-- **S_SKIN and SOC_PLAY:** These two lumps are very important for your character. These are **required** for your SRB2 mod, or else the game will show an error and refuse to launch the mod. Both of these specify visual information about your character, such as the default color they use, the abilities they have, and more.
+- **S_SKIN and SOC_PLAY:** These two lumps are very important for your character. These are **required** for your SRB2 mod, or else the game will show an error and refuse to launch the mod. Both of these specify important information about your character, such as the default color they use, the abilities they have, and more.
   
 - **Doom Graphics:** Doom graphics are also extremely crucial to your mod. Without them, your character will appear blank. For simplicity, I decided to stick with the default Sonic sprites the PK3 template I used had.
   
