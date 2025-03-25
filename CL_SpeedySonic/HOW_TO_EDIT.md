@@ -10,7 +10,7 @@ Slade may seem daunting at first, but here are a few core concepts you should kn
   
 - **[Lua](https://www.lua.org/):** A programming and scripting language that is often used in video games and supported Sonic Robo Blast 2 for adding gameplay abilities to your character without needing to create a whole mod with a Doom mod editor. It's how I added the multithok ability to Speedy Sonic (the boost ability is built-in for SRB2, called DASHMODE).
   
-- **SOC:** SOC (Sonic Object Configuration) is a config file for Sonic Robo Blast 2 that is used in character mods to define how your character will appear both in-game and in the character select screen. Unlike Lua, it is not as capable in adding gameplay abilites, and mostly meant for styling and adding some objects.
+- **[SOC](https://wiki.srb2.org/wiki/SOC):** SOC (Sonic Object Configuration) is a config file for Sonic Robo Blast 2 that is used in character mods to define how your character will appear both in-game and in the character select screen. Unlike Lua, it is not as capable in adding gameplay abilites, and mostly meant for styling and adding some objects.
   
 - **S_SKIN and SOC_PLAY:** These two lumps are very important for your character. These are **required** for your SRB2 mod, or else the game will show an error and refuse to launch the mod. Both of these specify visual information about your character, such as the default color they use, the abilities they have, and more.
   
