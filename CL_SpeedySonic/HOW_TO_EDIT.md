@@ -8,7 +8,7 @@ Slade may seem daunting at first, but here are a few core concepts you must get 
 
 - **Lumps:** These are, in fact, just regular files most of the time without a file extension. They are parts of the ZIP your mod is packaged in. PK3 archives are ZIP files at their core, so most unzipping software can unzip its contents (although you should use Slade to edit the mod).
   
-- **Lua:** Lua is a programming language that is often used in Sonic Robo Blast 2 for adding gameplay abilities to your character. It's how I added the multithok ability to Speedy Sonic (the boost ability is built-in to SRB2).
+- **Lua:** [Lua](https://www.lua.org/) is a programming language that is often used in video games and supported Sonic Robo Blast 2 for adding gameplay abilities to your character without needing to create a whole mod with a Doom mod editor. It's how I added the multithok ability to Speedy Sonic (the boost ability is built-in for SRB2, called DASHMODE).
   
 - **SOC:** SOC (Sonic Object Configuration) is a config file for Sonic Robo Blast 2 that is used in character mods to define how your character will appear both in-game and in the character select screen. Unlike Lua, it is not as capable in adding gameplay abilites, and mostly meant for styling and adding some objects.
   
