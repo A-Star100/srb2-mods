@@ -1,5 +1,5 @@
 # Speedy Sonic
-My first character mod for SRB2!
+My first character mod for SRB2, created from this [template](https://mb.srb2.org/threads/pk3-file-template.40272/)! (Thank you **very much**, David, for making the template, I cannot express my gratitude).
 
 Speedy Sonic has 2 major abilities:
 
