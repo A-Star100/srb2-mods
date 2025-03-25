@@ -18,4 +18,4 @@ Slade may seem daunting at first, but here are a few core concepts you should kn
   
 - **PK3 and WAD archives:** These are the two most commonly used types of archives for SRB2 mods (and Doom mods in general). These archives are compressed versions of the contents of your mod (which at the end of the day is just a regular folder with mod details). [See the difference here](https://mb.srb2.org/threads/i-wonder-which-file-is-better-for-character-mods-wad-or-pk3.34096/#post-558489).
 
-If you're still confused, take a look at the [SLADE Wiki](https://slade.mancubus.net/index.php?page=wiki) or the [SRB2 Wiki](https://wiki.srb2.org). 
+If you're still confused, take a look at the [SLADE Wiki](https://slade.mancubus.net/index.php?page=wiki) or the [SRB2 Wiki](https://wiki.srb2.org/wiki/Category:Editing) (Editing section). 
