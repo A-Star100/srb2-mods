@@ -1,5 +1,5 @@
 # Speedy Sonic
-[View official trailer here](https://www.youtube.com/watch?v=_WBq-iaOaGc).
+[View the official trailer here](https://www.youtube.com/watch?v=_WBq-iaOaGc).
 
 My first character mod for SRB2, created from this [template](https://mb.srb2.org/threads/pk3-file-template.40272/)! (Thank you **very much**, David, for making the template, I cannot express my gratitude).
 
