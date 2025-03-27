@@ -13,6 +13,9 @@ There's no limit! Speed thok to your will! It's best to chain speed thoks only i
 With all 7 Chaos Emeralds and at least 50 rings, pressing the Spin button in mid-air transforms you into **Super Speedy!** In this state,
 each and every one of his abilities becomes **TWICE** as fast. As Super Speedy, you can **CRUSH** those challenges, including the infamous **Metal Sonic race!**
 
+## More
+Note that none of these abilities will be usable if you are in game modes that disable special abilities like Capture The Flag, which when you are holding the flag both Speedy's boost and multi-thok are disabled (we have no control over this).
+
 Hope you enjoy playing as **Speedy Sonic!**
 
 **Gotta go fast!**
