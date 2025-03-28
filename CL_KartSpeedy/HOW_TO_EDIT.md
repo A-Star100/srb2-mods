@@ -13,7 +13,7 @@ One of the hardest parts of SRB2 modding in general is spriting. I'm not very go
 new abilities for my characters. This is subject to change though. KartMaker allows you to create the sprites, and then it automatically converts them to the required format (Doom Graphic/PNG patch).
 
 ## What you need to know
-- **WAD:** Stands for *Where's All The Data*, and is important for SRB2 modding. This is one of the packaging formats your mod can get distributed in. Personally, making SRB2Kart mods with WAD is easier for me, and making SRB2 mods with PK3 is easier for me, but you can use both WADs and PK3s for your mods, they'll still work.
+- **WAD:** Stands for *Where's All The Data*, and is important for SRB2 modding. This is one of the packaging formats your mod can get distributed in. Personally, making SRB2Kart mods with WAD is easier for me, and making SRB2 mods with PK3 is easier for me, but you can use both WADs and PK3s for your mods, they'll still work. [See the difference between WAD and PK3 here](https://mb.srb2.org/threads/i-wonder-which-file-is-better-for-character-mods-wad-or-pk3.34096/#post-558489).
 - **Lumps:** All you really need to know about these is that they're files in your mod. They're referred to as lumps by modders and the game itself.
 - **S_SKIN:** Very important for setting up your character, it defines your character's properties and for SRB2 modding, even abilities. In SRB2Kart, though, S_SKIN typically contains mappings to sound effects and properties about the character (kart speed, weight, skin name and screen name).
 - **Doom Graphic:** The lump (file) for SRB2 and SRB2Kart sprites. They don't display in color in editors but the grey, black, and white defines color. If you convert to a PNG you lose the color as a result.
