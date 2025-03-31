@@ -1,5 +1,6 @@
 # Speedy Sonic
 [View the official trailer here](https://www.youtube.com/watch?v=_WBq-iaOaGc).
+
 [SRB2Kart and Ring Racers version](https://github.com/A-Star100/srb2-mods/tree/main/CL_KartSpeedy).
 
 My first character mod for SRB2, created from this [template](https://mb.srb2.org/threads/pk3-file-template.40272/)! (Thanks, David, for making the template!).
