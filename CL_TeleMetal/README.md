@@ -1,3 +1,4 @@
+# Tele Metal
 **Tele Metal** is a specialized version of Metal Sonic.
 
 - **Speed Thok:**
