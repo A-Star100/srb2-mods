@@ -1,5 +1,5 @@
 # How to Play
-Speedy Sonic is a powerful character that can finish levels and races in **seconds** with the right precision.
+Blue Blur is a powerful character that can finish levels and races in **seconds** with the right precision.
 
 ## Boost 
 Keep on running and running until you hear a sound and Speedy starts to flash. Once he does, he will get faster and faster as you keep running in this state without getting slowed down or hit by enemies/obstacles. In this state he can also run on water.
@@ -16,6 +16,6 @@ each and every one of his abilities becomes **TWICE** as fast. As Super Speedy, 
 ## More
 Note that none of these abilities will be usable if you are in game modes that disable special abilities like Capture The Flag, which when you are holding the flag both Speedy's boost and multi-thok are disabled (we have no control over this).
 
-Hope you enjoy playing as **Speedy Sonic!**
+Hope you enjoy playing as **Blue Blur!**
 
 **Gotta go fast!**
