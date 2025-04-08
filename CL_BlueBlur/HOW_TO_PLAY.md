@@ -10,7 +10,7 @@ SRB2's original Sonic's speed thok ability sure is a good one! But Blur has the 
 There's no limit! Speed thok to your will! It's best to chain speed thoks only in straight paths, though, otherwise use one speed thok.
 
 ## Super Speedy
-With all 7 Chaos Emeralds and at least 50 rings, pressing the Spin button in mid-air transforms you into **Super Speedy!** (a.k.a, Super Blur) In this state,
+With all 7 Chaos Emeralds and at least 50 rings, pressing the Spin button in mid-air transforms you into **Super Speedy!** (a.k.a, Super Blur). In this state,
 each and every one of his abilities becomes **TWICE** as fast. As Super Speedy, you can **CRUSH** those challenges, including the infamous **Metal Sonic race!**
 
 ## More
