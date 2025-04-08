@@ -12,4 +12,4 @@ Blue Blur is slightly faster than vanilla Sonic but still controllable like him,
 
 He can also turn Super! 
 
-Read more about him in [HOW_TO_PLAY.md](https://github.com/A-Star100/srb2-mods/blob/main/CL_SpeedySonic/HOW_TO_PLAY.md)!
+Read more about him in [HOW_TO_PLAY.md](https://github.com/A-Star100/srb2-mods/blob/main/CL_BlueBlur/HOW_TO_PLAY.md)!
