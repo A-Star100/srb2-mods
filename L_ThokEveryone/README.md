@@ -9,7 +9,11 @@ This Lua script is a modification of CobaltBW's Lua script tutorial for thokking
 | Knuckles   | ✅ Good   |
 | Metal Sonic | ✅ Good        | 
 | X Sonic | ❌ Thok Fails  | 
-| Modern Sonic | ❌ Thok Fails  |
+| Modern Sonic | ✅ Good  |
+| SMSReborn | ✅ Good  |
+| AbilityChars | ✅ Good  |
+| Adventure Sonic | ✅ Good  |
+| Werehog | ✅ OK, slightly broken  |
 
 This mod is compatible with most other mods that don't have advanced abilities that overwrite special ability changes. X Sonic and Modern Sonic have been tested and don't work, but 
 a wide range of other mods do.
