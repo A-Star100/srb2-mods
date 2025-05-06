@@ -9,7 +9,6 @@ Blue Blur is slightly faster than vanilla Sonic but still controllable like him,
 
 - **Boost:** Build up enough speed until you flash and hear a spin sort of sound. Once you do, you can blaze through stages at incredible speeds! The longer you go the faster you get! But be warned! If at any time you stop, or get hit by an enemy, the boost will end (you can always start one up again though)!
 - **Multithok:** Chain Sonic's signature speed thoks in a crazy, broken frenzy! (I used the code from the MultiThokEveryone mod, also by me!).
-- **Peelout:** Credit to BlueTorch's [Custom Dashmode](https://mb.srb2.org/threads/custom-dashmode.37587/) mod for this feature.
 
 He can also turn Super! 
 
