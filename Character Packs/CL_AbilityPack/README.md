@@ -16,7 +16,7 @@ These were my first three character mods.
 
 - **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming its no fun, isn't it?
 
-- **Strike Dash:** A speedy, short-range dash that hits enemies hard with Custom 1!
+- **Strike Dash:** A speedy, short-range dash that hits enemies hard with Custom 1! You can also do it in the middle of a Catapult if you want to slow it down easily
 
 - **Wall Busting:** You can also bust through the same walls that normally only Knuckles and Muscles Knuckles can!
 
