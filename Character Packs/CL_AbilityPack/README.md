@@ -12,18 +12,18 @@ These were my first three character mods.
 
 - **Hydro Dash:** A regular speed thok, right? But it doesn't slow down underwater! Use it with Custom 1 to ***speeeeed*** through those long, drawn out underwater segments! Credit to [this script](https://mb.srb2.org/threads/everyone-gets-a-thok.27956/).
   
-- **Dropdash:** The dropdash returns from Sonic Mania! Credit to [DirkTheHusky](https://mb.srb2.org/members/dirkthehusky.6283/) on the SRB2 MB for sprites and [this script](https://mb.srb2.org/threads/sonic-drop-dash-and-double-jump.27903/).
+- **Dropdash:** The dropdash returns from Sonic Mania! Press spin in mid-air and boost on landing!
 
 ## Sly Tails
 
 - **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming its no fun, isn't it?
 
-- **Strike Dash:** A speedy, short-range dash that hits enemies hard with Custom 1! You can also do it in the middle of a Catapult if you want to slow it down easily
+- **Air Drill:** Don't wanna waste time? Go ***high*** up in a forwards and upwards arc mid-glide or not with Custom 1!
 
 - **Wall Busting:** You can also bust through the same walls that normally only Knuckles and Muscles Knuckles can!
 
 ## Muscles Knuckles
 
-- **Air Drill:** Don't wanna waste time? Go ***high*** up in a forwards and upwards arc mid-glide or not with Custom 1!
+- **Strike Dash:** A short-range dash that hits enemies hard with Custom 1!
 
 - **Stomp Damage:** Even if you're not curled up into a ball, Muscles's, well, y'know, muscles, will destroy anything in his way, and jumpscare those puny enemies!
