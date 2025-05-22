@@ -10,7 +10,9 @@ These were my first three character mods.
 
 - **Multi Thok:** The multi thok from the old days of SRB2 is back in action! Topped with Boost Mode you've got a speedy guy right here.
 
-- **Hydro Dash:** A regular speed thok, right? But it doesn't slow down underwater! Use it with Custom 1 to ***speeeeed*** through those long, drawn out underwater segments!
+- **Hydro Dash:** A regular speed thok, right? But it doesn't slow down underwater! Use it with Custom 1 to ***speeeeed*** through those long, drawn out underwater segments! Credit to [this script](https://mb.srb2.org/threads/everyone-gets-a-thok.27956/).
+  
+- **Dropdash:** The dropdash returns from Sonic Mania! Credit to [DirkTheHusky](https://mb.srb2.org/members/dirkthehusky.6283/) on the SRB2 MB for sprites and [this script](https://mb.srb2.org/threads/sonic-drop-dash-and-double-jump.27903/).
 
 ## Sly Tails
 
