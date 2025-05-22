@@ -24,7 +24,7 @@ These were my first three character mods.
 
 ## Muscles Knuckles
 
-- **Earthbreaker Punch:** A SLAM to the ground that sends enemies FLYING!
+- **Knockback:** A SLAM to the ground that lets you bounce off of enemies!
 
 - **Strike Dash:** A short-range dash that hits enemies hard with Custom 1!
 
