@@ -12,3 +12,5 @@ Pressing the jump button a second time in mid-air will push enemies and players 
 Pressing Spin in mid-air pulls them towards you instead.
 
 **Tip:** Telekinesis works best near many enemies.
+
+**BattleMod abilities are the same as Blue Blur's**.
