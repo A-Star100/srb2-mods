@@ -16,6 +16,7 @@ These were my first three character mods.
 
   ### BattleMod Abilities (from ChrispyChars, experimental)
   [CREDITS.md](https://github.com/A-Star100/srb2-mods/blob/main/CREDITS.md)
+  
   Provided you added the patch file, here it is:
 
   - **Super Spin Attack (On-Ground):** A mini-catapult that smacks your enemies' faces!
