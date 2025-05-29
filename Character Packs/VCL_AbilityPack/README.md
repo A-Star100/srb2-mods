@@ -14,6 +14,13 @@ These were my first three character mods.
   
 - **Dropdash:** The dropdash returns from Sonic Mania! Press spin in mid-air and boost on landing!
 
+  ### BattleMod Abilities (from ChrispyChars, experimental)
+  [CREDITS.md](https://github.com/A-Star100/srb2-mods/blob/main/CREDITS.md)
+  Provided you added the patch file, here it is:
+
+  - **Super Spin Attack (On-Ground):** A mini-catapult that smacks your enemies' faces!
+  - **Super Spin Jump (Mid-Air):** Bounce hard on top of your enemies to attack them!
+
 ## Sly Tails
 
 - **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming its no fun, isn't it?
