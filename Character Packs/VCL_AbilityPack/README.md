@@ -19,8 +19,8 @@ These were my first three character mods.
   
   Provided you added the patch file, here it is:
 
-  - **Super Spin Attack (On-Ground):** A mini-catapult that smacks your enemies' faces!
-  - **Super Spin Jump (Mid-Air):** Bounce hard on top of your enemies to attack them!
+  - **Super Dash Attack (On-Ground):** A mini-catapult that smacks your enemies' faces based on the Super Spin Attack!
+  - **Super Spin Bounce (Mid-Air):** Bounce hard on top of your enemies to attack them!
 
 ## Sly Tails
 
