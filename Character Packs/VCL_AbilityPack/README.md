@@ -15,8 +15,7 @@ These were my first three character mods.
 - **Dropdash:** The dropdash returns from Sonic Mania! Press spin in mid-air and boost on landing!
 
   ### BattleMod Abilities (from ChrispyChars, experimental)
-  [BattleMod trailer](https://www.youtube.com/watch?v=k4AuNP2qZqg&ab_channel=SonicTurbo)
-  [CREDITS.md](https://github.com/A-Star100/srb2-mods/blob/main/CREDITS.md)
+  [BattleMod trailer](https://www.youtube.com/watch?v=k4AuNP2qZqg&ab_channel=SonicTurbo) | [CREDITS.md](https://github.com/A-Star100/srb2-mods/blob/main/CREDITS.md)
   
   Provided you added the patch file, here it is:
 
