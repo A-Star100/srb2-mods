@@ -15,7 +15,7 @@ These were my first three character mods.
 - **Dropdash:** The dropdash returns from Sonic Mania! Press spin or Custom 2 in mid-air and boost on landing!
 
   ### BattleMod Abilities (from ChrispyChars, experimental)
-  [CREDITS.md](https://github.com/A-Star100/srb2-mods/blob/main/CREDITS.md)
+  [BattleMod trailer](https://www.youtube.com/watch?v=k4AuNP2qZqg&ab_channel=SonicTurbo) | [CREDITS.md](https://github.com/A-Star100/srb2-mods/blob/main/CREDITS.md)
   
   Provided you added the patch file, here it is:
 
@@ -37,3 +37,10 @@ These were my first three character mods.
 - **Strike Dash:** A short-range dash that hits enemies hard with Custom 1!
 
 - **Stomp Damage:** Even if you're not curled up into a ball, Muscles's, well, y'know, muscles, will destroy anything in his way, and jumpscare those puny enemies!
+
+## Blue Blur (Super Form)
+
+- **Speed Boost:** The Blur becomes **much** faster in his Super form! Use it to **BLAZE** through every stage at his **highest speeds**!
+  
+- **Air Run:** When he's in Super, the dropdash gets replaced with the Air Run ability! Hover across landscapes and buildings as you enjoy the mesmerizing sights!
+
