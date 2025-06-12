@@ -24,7 +24,7 @@ These were my first three character mods.
 
 ## Sly Tails
 
-- **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming its no fun, isn't it?
+- **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming it's no fun, isn't it?
 
 - **Air Drill:** Don't wanna waste time? Go ***high*** up in a forwards and upwards arc with Custom 1!
 
