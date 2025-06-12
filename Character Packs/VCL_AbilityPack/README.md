@@ -26,7 +26,7 @@ These were my first three character mods.
 
 - **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming its no fun, isn't it?
 
-- **Air Drill:** Don't wanna waste time? Go ***high*** up in a forwards and upwards arc mid-glide or not with Custom 1!
+- **Air Drill:** Don't wanna waste time? Go ***high*** up in a forwards and upwards arc with Custom 1!
 
 - **Wall Busting:** You can also bust through the same walls that normally only Knuckles and Muscles Knuckles can!
 
