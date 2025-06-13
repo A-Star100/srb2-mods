@@ -12,7 +12,7 @@ These were my first three character mods.
 
 - **Hydro Dash:** A regular speed thok, right? But it doesn't slow down underwater! Use it with Custom 1 to ***speeeeed*** through those long, drawn out underwater segments! Credit to [this script](https://mb.srb2.org/threads/everyone-gets-a-thok.27956/).
   
-- **Dropdash:** The dropdash returns from Sonic Mania! Press spin or Custom 2 in mid-air and boost on landing!
+- **Dropdash:** The dropdash returns from Sonic Mania! Press spin or Custom 2 in mid-air and boost on landing! It also twists up gameplay when you use your shield ability!
 
   ### BattleMod Abilities (from ChrispyChars, experimental)
   [BattleMod trailer](https://www.youtube.com/watch?v=k4AuNP2qZqg&ab_channel=SonicTurbo) | [CREDITS.md](https://github.com/A-Star100/srb2-mods/blob/main/CREDITS.md)
