@@ -44,7 +44,7 @@ These were my first three character mods.
   
 - **Air Run:** When he's in Super, the dropdash gets replaced with the Air Run ability! Hover across landscapes and buildings as you enjoy the mesmerizing sights!
 
-# Team Blur
+# Team Blur (Experimental)
 The 3 heroes join together along with one extra fellow and team up to the best of their abilities!
 
 - **Char. Swap:** Just like in [BuddyEx](https://mb.srb2.org/threads/buddyex.30566/), use Weapon Next. or Weapon Prev. to swap between heroes in a flashy fashion!
