@@ -15,7 +15,7 @@ This Lua script is a modification of CobaltBW's Lua script tutorial for thokking
 | Junio Sonic | ❌ Broken |
 | Werehog | ✅ Good |
 
-This mod is compatible with most other mods that don't have advanced abilities that overwrite special ability changes. X Sonic and Modern Sonic have been tested and don't work, but 
+This mod is compatible with most other mods that don't have advanced abilities that overwrite special ability changes. X Sonic and Junio Sonic have been tested and don't work, but 
 a wide range of other mods do.
 
 You can find CobaltBW's original Lua [here](https://mb.srb2.org/threads/lua-thok-scripting-example.30555/).
