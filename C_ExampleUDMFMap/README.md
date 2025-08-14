@@ -41,3 +41,4 @@ After this, a `zdbsp` binary should have been created. Then, go to SLADE, open a
 Select the Node Builder `ZDBSP`, and the `Path` should be the file path of the `zdbsp` binary you just created.
 
 After this, you should be ready to go with nodes.
+To ensure that nodes have been created, check for the **ZNODES** lump. If it exists, nodes have successfully been created.
