@@ -4,6 +4,7 @@
 - CobaltBW's Speed Thok recreation in Lua for the old version of Blur's multi speed thok
 - Dropdash and Double Jump mod for the dropdash sound effect
 - Sonic: Before The Sequel and Sonic Adventure 2 (previously also Team Sonic Racing) for the music used in the AbilityChars character pack
+- clairebun & Cobalt's Momentum mod for making characters feel smoother
 - And more! (check the CREDITS.txt file in AbilityChars's PK3)
 
 ### BattleMod:
