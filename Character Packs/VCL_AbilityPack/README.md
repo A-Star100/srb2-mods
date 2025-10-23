@@ -1,5 +1,6 @@
 # AbilityChars
 [View official trailer here!](https://www.youtube.com/watch?v=XWz0-E3x7ow&ab_channel=SonicTurbo)
+[View super abilities trailer here!](https://youtu.be/UcsYT7k4QEc)
 
 A character pack containg three characters! **Blue Blur**, **Sly Tails**, and **Muscles Knuckles**!
 These were my first three character mods.
@@ -42,7 +43,9 @@ These were my first three character mods.
 
 - **Speed Boost:** The Blur becomes **much** faster in his Super form! Use it to **BLAZE** through every stage at his **highest speeds**!
   
-- **Air Run:** When he's in Super, the dropdash gets replaced with the Air Run ability! Hover across landscapes and buildings as you enjoy the mesmerizing sights!
+- **Hover:** When he's in Super, the dropdash and the Hover ability unite! Double-jump and you'll hover in mid-air. Press Custom 1 while in mid-air to add a cool trail from behind.
+  
+- **Hover Dash:** When Hovering, press Jump+Spin at the same time to receive a HUGE boost forward! (though it is kind of uncontrollable and you lose some rings upon doing it, not too many though).
 
 # Team Blur (Experimental)
 The 3 heroes join together along with one extra fellow and team up to the best of their abilities!
