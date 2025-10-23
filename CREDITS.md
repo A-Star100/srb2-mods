@@ -1,10 +1,13 @@
 ### Thanks to:
 - FoxBot mod for the bots in the [Team Blur](https://github.com/A-Star100/srb2-mods/tree/main/Character%20Packs/VCL_AbilityPack#team-blur-experimental) mod (not ExAI or BuddyEx, just foxBot, which is based on ExAI)
-- YouGetAThok mod for the thok code used for Tele Metal's speed thok, Blur's Hydro Dash, and loosely used for Muscles's Strike Dash
-- CobaltBW's Speed Thok recreation in Lua for the old version of Blur's multi speed thok
-- Dropdash and Double Jump mod for the dropdash sound effect
-- Sonic: Before The Sequel and Sonic Adventure 2 (previously also Team Sonic Racing) for the music used in the AbilityChars character pack
-- And more! (check the CREDITS.txt file in AbilityChars's PK3)
+- David's PK3Char template; Really helped with spritework and even the Boost ability, since this was my first character mod I had never heard of SF_DASHMODE at the time
+- CobaltBW's example Lua script to recreate Sonic's thok in Lua; Really helped with the old version of the multi thok feature after some polish
+- DropDash&DoubleJump mod for the dropdash charging sound and freeslot loading
+- Neon The Hedgehog mod for the music mapping code in Lua
+- EveryoneGetsAThok mod for the Hydro Dash and Strike Dash
+- Neo Sonic mod for that yellow highlight code in the SOC_PLAY file (previously)
+- Egg Reverie Super Sonic mod by Frostiikin for some really cool Super Blur abilities!
+- Spring Jump mod by Sls64LGamingBro for Sly Tails' super ability!
 
 ### BattleMod:
 - ChrispyChars for the BattleMod custom ability code. This code is experimental and is not considered finalized nor will it be published
