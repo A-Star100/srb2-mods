@@ -3,6 +3,8 @@
 
 [View super abilities trailer here!](https://youtu.be/UcsYT7k4QEc)
 
+[View hyper abilities trailer here!](https://youtu.be/xHc1KbX3LiQ)
+
 A character pack containg three characters! **Blue Blur**, **Sly Tails**, and **Muscles Knuckles**!
 These were my first three character mods.
 
