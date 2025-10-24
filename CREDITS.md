@@ -8,6 +8,7 @@
 - Neo Sonic mod for that yellow highlight code in the SOC_PLAY file (previously)
 - Egg Reverie Super Sonic mod by Frostiikin for some really cool Super Blur abilities!
 - Spring Jump mod by Sls64LGamingBro for Sly Tails' super ability!
+- (SPOILER!!!!) ----> Hyper forms for everyone!!11!!!!!! mod by Kirb for, well, I spoiled it now
 
 ### BattleMod:
 - ChrispyChars for the BattleMod custom ability code. This code is experimental and is not considered finalized nor will it be published
