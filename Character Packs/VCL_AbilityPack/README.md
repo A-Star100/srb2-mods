@@ -40,13 +40,20 @@ These were my first three character mods.
 
 - **Stomp Damage:** Even if you're not curled up into a ball, Muscles's, well, y'know, muscles, will destroy anything in his way, and jumpscare those puny enemies!
 
-## Blue Blur (Super Form)
+## Super Blur
 
-- **Speed Boost:** The Blur becomes **much** faster in his Super form! Use it to **BLAZE** through every stage at his **highest speeds**!
+- **Speed Boost:** The Blur becomes **much** faster in his Super form! Use it to **BLAZE** through every stage at his **second-highest speeds**!
   
 - **Hover:** When he's in Super, the dropdash and the Hover ability unite! Double-jump and you'll hover in mid-air. Press Custom 1 while in mid-air to add a cool trail from behind.
   
 - **Hover Dash:** When Hovering, press Jump+Spin at the same time to receive a HUGE boost forward! (though it is kind of uncontrollable and you lose some rings upon doing it, not too many though).
+
+## Hyper Blur
+To become Hyper Blur, all you've gotta do is be Super Blur and have more than 100 rings, then... press Custom 3 in mid-air. He has the same abilities as Super Blur and some more!
+
+- **HYPER Speed Boost:** The Blur becomes **EVEN** faster in his Hyper form! Use it to **SKIM** through every stage at his **highest speeds**!
+
+- **Nuke Thrust:** Press Custom 3 on the ground once you're Hyper Blur to nuke enemies around you. It'll also give you a short boost upwards. It can also attack bosses and enemies above you, as long as you're close enough to it.
 
 # Team Blur (Experimental)
 The 3 heroes join together along with one extra fellow and team up to the best of their abilities!
