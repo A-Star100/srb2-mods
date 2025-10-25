@@ -8,6 +8,8 @@
 A character pack containg three characters! **Blue Blur**, **Sly Tails**, and **Muscles Knuckles**!
 These were my first three character mods.
 
+**Works best with SRB2 v2.2.10+**.
+
 ## Blue Blur
 
 - **Boost Mode:** Build up enough speed and- BOOM! You'll go BLAZING fast and your speed and jump height'll just keep on increasing as you go! Endless speedrunning possibilities!
