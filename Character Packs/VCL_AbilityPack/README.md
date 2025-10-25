@@ -46,9 +46,9 @@ These were my first three character mods.
 
 - **Speed Boost:** The Blur becomes **much** faster in his Super form! Use it to **BLAZE** through every stage at his **second-highest speeds**!
   
-- **Hover:** When he's in Super, the dropdash and the Hover ability unite! Double-jump and you'll hover in mid-air. Press Custom 1 while in mid-air to add a cool trail from behind.
+- **Hover:** When he's in Super, double-jump and you'll hover in mid-air. Press Custom 1 while in mid-air to add a cool trail from behind.
   
-- **Hover Dash:** When Hovering, press Jump+Spin at the same time to receive a HUGE boost forward! (though it is kind of uncontrollable and you lose some rings upon doing it, not too many though).
+- **Hover Dash:** The dropdash becomes the Hover Dash here! When Hovering, press Jump+Spin at the same time to receive a HUGE boost forward! Don't worry, you can still dropdash when you're no longer hovering though. (though it is kind of uncontrollable and you lose some rings upon doing it, not too many though).
 
 ## Hyper Blur
 To become Hyper Blur, all you've gotta do is be Super Blur and have more than 100 rings, then... press Custom 3 in mid-air. He has the same abilities as Super Blur and some more!
