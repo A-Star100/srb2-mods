@@ -16,3 +16,19 @@
 
 - BattleMod for the P_SKIN files... basically it
   
+### OST from:
+- Escape From The City (Instrumental) - Sonic Adventure 2 
+- Live and Learn - Sonic Adventure 2
+- Believe in Myself (Instrumental) - Sonic Adventure 2
+- Unknown from M.E (Instrumental) - Sonic Adventure 2
+- Speed Shoes: Speed Shoes - Sonic Before The Sequel
+- Egg Reverie Theme - Sonic Mania
+- Invincibility: Invincibility - Sonic Before The Sequel
+- Level Clear: Level Clear - Sonic Adventure 2
+
+### MIDI versions from:
+- The Most Accurate City Escape MIDI You Will Ever Hear - Nuclear [NUKELEDGE]
+- Live and Learn (MIDI) - VGMusic.com
+- Believe in Myself (MIDI) - MississippiAgua8127 on freemidi.org
+- Unknown from M.E (MIDI) - VGMusic.com
+- Egg Reverie Theme (MIDI) - Unknown
