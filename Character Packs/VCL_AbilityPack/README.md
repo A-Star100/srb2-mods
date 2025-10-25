@@ -51,7 +51,7 @@ These were my first three character mods.
 - **Hover Dash:** The dropdash becomes the Hover Dash here! When Hovering, press Jump+Spin at the same time to receive a HUGE boost forward! Don't worry, you can still dropdash when you're no longer hovering though. (though it is kind of uncontrollable and you lose some rings upon doing it, not too many though).
 
 ## Hyper Blur
-To become Hyper Blur, all you've gotta do is be Super Blur and have more than 100 rings, then... press Custom 3 in mid-air. He has the same abilities as Super Blur and some more!
+To become Hyper Blur, all you've gotta do is be Super Blur and have more than 100 rings, then... press Custom 3 (on the ground or in the air). He has the same abilities as Super Blur and some more!
 
 - **HYPER Speed Boost:** The Blur becomes **EVEN** faster in his Hyper form! Use it to **SKIM** through every stage at his **highest speeds**!
 
