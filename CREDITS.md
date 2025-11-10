@@ -10,6 +10,7 @@
 - Spring Jump mod by Sls64LGamingBro for Sly Tails' super ability!
 - (SPOILER!!!!) ----> Hyper forms for everyone!!11!!!!!! mod by Kirb for, well, I spoiled it now
 - Extra Dashmode Effects (Non-Global Ver.) by ThatGuyThatLovesSonic
+- Classic Frontiers Sonic (v2.2) by ThatGuyThatLovesSonic for giving me the idea of the code used for the Homing Smash and Spindash abilities.
 
 ### BattleMod:
 - ChrispyChars for the BattleMod custom ability code. This code is experimental and is not considered finalized nor will it be published
