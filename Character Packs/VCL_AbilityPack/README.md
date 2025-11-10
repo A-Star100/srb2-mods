@@ -42,7 +42,7 @@ These were my first three character mods.
 
 - **Strike Dash:** A short-range dash that hits enemies hard with Custom 1!
 
-- **Homing Smash:** By holding Custom 3 and double jumping, you'll do a homing attack/thok. Note that this won't work too well when you're Super.
+- **Homing Smash:** By holding Custom 3 and double jumping, you'll do a homing attack/thok. Note that this won't work when you're Super.
 
 ## Super Blur
 
