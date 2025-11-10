@@ -30,11 +30,11 @@ These were my first three character mods.
 
 ## Sly Tails
 
-- **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming it's no fun, isn't it?
+- **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming it's no fun, isn't it? | **PRO TIP:** Press Custom 2 while catapulting to lose less speed when you land and move around more freely in mid-air.
+
+- **Spindash:** By holding Custom 2 and pressing spin, you'll do an ordinary spindash. 
 
 - **Air Drill:** Don't wanna waste time? Go ***high*** up in a forwards and upwards arc with Custom 1!
-
-- **Wall Busting:** You can also bust through the same walls that normally only Knuckles and Muscles Knuckles can!
 
 ## Muscles Knuckles
 
@@ -42,7 +42,7 @@ These were my first three character mods.
 
 - **Strike Dash:** A short-range dash that hits enemies hard with Custom 1!
 
-- **Stomp Damage:** Even if you're not curled up into a ball, Muscles's, well, y'know, muscles, will destroy anything in his way, and jumpscare those puny enemies!
+- **Homing Smash:** By holding Custom 3 and double jumping, you'll do a homing attack/thok. Note that this won't work too well when you're Super.
 
 ## Super Blur
 
