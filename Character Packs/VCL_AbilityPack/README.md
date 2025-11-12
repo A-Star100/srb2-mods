@@ -32,7 +32,7 @@ These were my first three character mods.
 
 - **Catapult:** By pressing spin on the ground, you'll launch into a stealthy arc that can skip unnecessary chunks of levels, but spamming it's no fun, isn't it? | **PRO TIP:** Press Custom 2 while catapulting to lose less speed when you land and move around more freely in mid-air.
 
-- **Spindash:** By holding Custom 2 and pressing spin, you'll do an ordinary spindash. 
+- **Spindash:** By holding Custom 3 and pressing spin, you'll do an ordinary spindash. 
 
 - **Air Drill:** Don't wanna waste time? Go ***high*** up in a forwards and upwards arc with Custom 1!
 
