@@ -59,7 +59,6 @@ To become Hyper Blur, all you've gotta do is be Super Blur and have more than 10
 
 - **Nuke Thrust:** Press Custom 3 on the ground once you're Hyper Blur to nuke enemies around you. It'll also give you a short boost upwards. It can also attack bosses and enemies above you, as long as you're close enough to it.
 
-- **Slow Shoes???:** As a consequence of this utterly OP speed, speed shoes become slow shoes, and consequentially make you much slower as a result in Hyper form. So avoid them at all costs!
 
 # Team Blur (Experimental)
 The 3 heroes join together along with one extra fellow and team up to the best of their abilities!
