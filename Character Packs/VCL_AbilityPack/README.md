@@ -65,7 +65,7 @@ The 3 heroes join together along with one extra fellow and team up to the best o
 
 - **Char. Swap:** Just like in [BuddyEx](https://mb.srb2.org/threads/buddyex.30566/), use Weapon Next. or Weapon Prev. to swap between heroes like never before!
 
-- **Dummy:** The new guy, Dummy, serves as a copy of Sonic. His purpose, is well, techinical difficulties (literally). But, you can prank people in servers with it!
+- **Dummy:** The new guy, Dummy, serves as a copy of Sonic. His purpose, is well, technical difficulties (literally). But, you can prank people in servers with it!
 
 _________
 
